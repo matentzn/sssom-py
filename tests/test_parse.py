@@ -31,5 +31,12 @@ class TestParse(unittest.TestCase):
         g = to_rdf(self.mdoc)
         print(g.serialize(format="turtle").decode())
 
+    #def test_cob(self):
+    #    cob = from_tsv(f'{data_dir}/cob-to-external.tsv')
+    #    g = to_rdf(cob)
+    #    text = g.serialize(format="turtle").decode()
+    #    with open("cob-to-external.ttl", "w") as text_file:
+    #        text_file.write(text)
+
 if __name__ == '__main__':
     unittest.main()
