@@ -8,3 +8,4 @@ dist/
 tests/data/cob-to-external.tsv
 tests/cob-to-external.ttl
 tests/cob-to-external.owl
+.DS_Store
